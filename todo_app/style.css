@@ -5,30 +5,40 @@
   background-color: #d3d3d3;
 }
 
+/*Header*/
 .main-header {
   border: 1px solid green;
   height: 60px;
 }
 
-.main-header h1 {
+.header h1 {
+  border: 1px solid grey;
+  float: left;
   font-weight: lighter;
+  width: 400px;
+}
+.add {
+  border: 1px solid black;
+  border-radius: 100%;
+  margin-right: 20px;
+  width: 45px;
+  float: right;
 }
 
+.add p {
+  text-align: center;
+}
+
+/*Main Container*/
 .main-container {
   border: 1px solid black;
   margin-top: 50px;
   height: 600px;
 }
 
-.content {
-  border: 1px solid blue;
-  height: 60px;
-}
 
-.content li {
-  text-decoration: line-through;
-}
 
+/*Next Container*/
 .next-container {
   border: 1px solid yellow;
   height: 100px;
@@ -37,7 +47,7 @@
 
 
 
-
+/*Footer*/
 .main-footer {
   border: 1px solid purple;
   height: 60px;
