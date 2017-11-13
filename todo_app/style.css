@@ -77,7 +77,7 @@
 /*Next Container*/
 .next-container {
   /*border: 1px solid yellow;*/
-
+  border-top: 5px solid black;
   }
 
 .clear button {
