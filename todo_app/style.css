@@ -7,19 +7,30 @@
 
 /*Header*/
 .main-header {
-  border-bottom: 2px solid grey;
+  /*border-bottom: 2px solid grey;*/
   height: 60px;
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
   padding-bottom: 30px;
 }
+.main-header::after {
+    display: inline-block;
+    margin-left: 50px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: grey;
+    width: 500px;
+  }
 
 .header h1 {
   float: left;
   font-weight: lighter;
   width: 400px;
+  margin-left: 15px;
   margin-bottom: 20px;
 }
+
 .add button {
   border: 1px solid black;
   border-radius: 100%;
