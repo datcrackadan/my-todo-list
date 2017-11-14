@@ -186,19 +186,19 @@
 
     <div class="next-title next-element">
       <h2>TITLE</h2>
-      <input type="text" name="title" value="Title">
+      <input type="text" name="title" value="">
     </div>
     <div class="next-description next-element">
       <h2>DESCRIPTION</h2>
-      <input type="text" name="desc" value="Description">
+      <input type="text" name="desc" value="">
     </div>
     <div class="next-start next-element">
       <h2>START AT</h2>
-      <input type="datetime-local" name="start" value="Start">
+      <input type="datetime-local" name="start" value="">
     </div>
     <div class="next-end next-element">
       <h2>END AT</h2>
-      <input type="datetime-local" name="end" value="End">
+      <input type="datetime-local" name="end" value="">
     </div>
 
 

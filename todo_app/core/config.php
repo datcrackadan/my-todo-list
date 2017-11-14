@@ -2,5 +2,6 @@
 $user="root";
 $password="";
 $host="localhost";
-$dbname="practise";
+$dbname="todo_app";
+$charset="utf-8";
 ?>
