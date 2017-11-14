@@ -1,8 +1,8 @@
 .main {
-  /*border: 1px solid red;*/
+  border: 1px solid #D3D3D3;
   max-width: 600px;
   margin: 0 auto;
-  background-color: #d3d3d3;
+  /*background-color: #d3d3d3;*/
 }
 
 /*Header*/
@@ -19,7 +19,7 @@
     height: 3px;
     content: " ";
     text-shadow: none;
-    background-color: grey;
+    background-color: #D3D3D3;
     width: 500px;
   }
 
@@ -29,17 +29,22 @@
   width: 400px;
   margin-left: 15px;
   margin-bottom: 20px;
+  color: #D3D3D3;
 }
 
 .add button {
-  border: 1px solid black;
+  border: 1px solid #D3D3D3;
   border-radius: 100%;
   margin-right: 20px;
   margin-top: 15px;
   width: 50px;
   height: 50px;
   float: right;
+  cursor: pointer;
+  background-color: inherit;
+  color: #D3D3D3;
 }
+
 
 /*Main Container*/
 .main-container {
@@ -47,13 +52,24 @@
   margin-top: 30px;
   /*height: 600px;*/
 }
+h2 {
+  color: #D3D3D3;
+}
+p {
+  color: #D3D3D3;
+}
+span {
+  color: #D3D3D3;
+}
 
 .btn {
   border: none;
   background-color: inherit;
+  color: #D3D3D3;
 }
 .btn:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 
 /*Items*/
@@ -87,7 +103,7 @@
 }
 
 .item-footer {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #D3D3D3;
   width: 500px;
   margin-left: 40px
 }
@@ -112,7 +128,7 @@
 }
 
 .next-element {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #D3D3D3;
   width: 575px;
   margin: 0 auto;
 }
