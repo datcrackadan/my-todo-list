@@ -48,6 +48,14 @@
   /*height: 600px;*/
 }
 
+.btn {
+  border: none;
+  background-color: inherit;
+}
+.btn:hover{
+  text-decoration: underline;
+}
+
 /*Items*/
 .unchecked h2 {
   text-decoration: none;
