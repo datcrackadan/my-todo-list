@@ -4,7 +4,7 @@ try
 
 {
 
-$bdd = new PDO("mysql:host=$servername;dbname=$dbname;charset=$char", $username, $pass);
+$bdd = new PDO("mysql:host=$host;dbname=$dbname;charset=$charset", $user, $password);
 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 }
