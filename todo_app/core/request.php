@@ -1,6 +1,6 @@
 <?php
-include ('config.php');
-include ('connexion.php');
+include ('./core/config.php');
+include ('./core/connexion.php');
 
 
 

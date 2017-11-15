@@ -1,4 +1,4 @@
-<!--<?php include ('request.php'); ?>-->
+<!--<?php include ('.core/request.php'); ?>-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
