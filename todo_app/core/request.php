@@ -5,8 +5,11 @@ include ('connexion.php');
 $getStuff = $database->query('SELECT task_title FROM task');
 
 while ($data = $getStuff->fetch()) {
-  echo ('<p>' . $data['task_title'] . '</p>');
+  //echo ('<p>' . $data['task_title'] . '</p>');
 }
   $sendStuff = $database->prepare('INSERT INTO task (task_title) VALUES (?)');
+
+  if (!empty($_POST)){
   $sendStuff->execute(array($_POST['task_title']));
+}
   ?>
