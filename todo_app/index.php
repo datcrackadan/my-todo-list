@@ -111,7 +111,7 @@
               <span>Started on 2/10/2017 - 12:00</span>
               <span>End time 3/10/2017 - 15:00</span>
             </footer>
-          </li>
+        </li>
         </ul>
 
         <ul class="list" id="todo-list">
