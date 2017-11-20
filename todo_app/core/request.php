@@ -1,8 +1,8 @@
 <?php
-/*include ('config.php');
+include ('config.php');
 include ('connexion.php');
 
-$getStuff = $database->query('SELECT task_title FROM task');
+/*$getStuff = $database->query('SELECT task_title FROM task');
 
 while ($data = $getStuff->fetch()) {
   //echo ('<p>' . $data['task_title'] . '</p>');
@@ -65,6 +65,63 @@ if (isset($_POST['deleteTask'])) {
 } else {
   # code...
 }*/
+if (!empty($_GET)&&isset($_GET['delete'])){
+	deleteTask($_GET['delete']);
+}
+$tasks = selectAll();
+
+
+if (!empty($_POST)&&isset($_POST['delete'])) {
+	deleteTask($_POST['delete']);
+}
+
+
+if (!empty($_POST)&&isset($_POST['addTask'])) {
+	addTask();
+}
+
+function selectAll(){
+	global $database;
+	$getStuff = "SELECT * FROM tasks";
+	$preparation = $database->prepare($getStuff);
+	$preparation->execute();
+	return $preparation->fetchAll( PDO::FETCH_ASSOC );
+}
+
+function deleteTask($id){
+	global $database;
+	$getStuff = "DELETE FROM tasks WHERE id = :id";
+
+	$preparation = $database->prepare($getStuff);
+	$preparation->bindParam(':id',$id,PDO::PARAM_INT);
+
+	if ($preparation->execute()) {
+		header('Location: index.php');
+	} else {
+		echo "OOOPS!";
+	}
+}
+
+
+function addTask(){
+	global $database;
+
+	$getStuff = "INSERT INTO tasks (title, description)
+    VALUES (:title, :details)";
+	$preparation = $database->prepare($getStuff);
+
+	$preparation->bindParam(':title',$_POST['title'],PDO::PARAM_STR);
+	$preparation->bindParam(':details',$_POST['description'],PDO::PARAM_STR);
+
+	if ($preparation->execute()) {
+		header('Location: index.php');
+	} else {
+		echo "OOOPS!";
+	}
+
+
+
+}
 
 
 

@@ -1,4 +1,10 @@
-<?php include 'core/request.php'; ?>
+<?php
+include_once './core/config.php';
+
+include_once './core/connexion.php';
+
+include_once './core/request.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -221,7 +227,7 @@
                     </div>
                     <div class="next-description next-element">
                         <h2>DESCRIPTION</h2>
-                        <input type="text" name="desc" value="">
+                        <input type="text" name="description" value="">
                     </div>
                     <div class="next-start next-element">
                         <h2>START AT</h2>
