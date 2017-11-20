@@ -170,6 +170,7 @@ span {
 
 .main-footer h4 {
   margin-left: 20px;
+  color: #AAAAAA;
 }
 
 .main-footer ul {
@@ -180,7 +181,4 @@ span {
   display: inline;
   padding-left: 10px;
   list-style-type: none;
-}
-.first-footer {
-  display: none;
 }

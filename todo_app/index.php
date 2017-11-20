@@ -178,6 +178,14 @@
                     </ul>
 
                 </div>
+                <div class="main-footer">
+                    <h4>Show:</h4>
+                    <ul>
+                        <li><button class="btn" type="button" name="button">All Tasks</button></li>
+                        <li><button class="btn" type="button" name="button">To Do</button></li>
+                        <li><button class="btn" type="button" name="button">Done</button></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -232,14 +240,7 @@
 
 
             <div class="main-footer">
-                <div class="first-footer">
-                    <h4>Show:</h4>
-                    <ul>
-                        <li><button class="btn" type="button" name="button">All Tasks</button></li>
-                        <li><button class="btn" type="button" name="button">To Do</button></li>
-                        <li><button class="btn" type="button" name="button">Done</button></li>
-                    </ul>
-                </div>
+
                 <div class="next-footer">
                     <ul>
                         <li><button class="btn" type="button" name="button">Add task and create new one</button></li>
