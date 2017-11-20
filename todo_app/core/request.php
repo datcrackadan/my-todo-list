@@ -12,7 +12,7 @@ while ($data = $getStuff->fetch()) {
   if (!empty($_POST)){
   $sendStuff->execute(array($_POST['task_title']));
 }*/
-if (isset($_POST['insertTask'])) {
+/*if (isset($_POST['insertTask'])) {
 
 define("DS", DIRECTORY_SEPARATOR);
 require dirname(__FILE__).DS.'config.php';
@@ -64,7 +64,7 @@ if (isset($_POST['deleteTask'])) {
     }
 } else {
   # code...
-}
+}*/
 
 
 

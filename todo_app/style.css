@@ -117,6 +117,10 @@ span {
   border-top: 5px solid black;
   }
 
+  .hide {
+      display: none;
+  }
+
 .clear button {
   margin-right: 10px;
   margin-top: 15px;
