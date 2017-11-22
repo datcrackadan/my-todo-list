@@ -37,69 +37,66 @@ include_once './core/request.php';
 
             <div class="main-container">
 
-                <div class="checked">
+                <ul class="list" id="todo-list">
+                    <li class="list-item">
+                        <header class="item-header">
+                            <h2 class="item-title">Take a shower</h2>
+                            <ul class="menu">
+                                <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                            </ul>
+                        </header>
+                        <div class="item-container">
+                            <p>Description...</p>
+                        </div>
+                        <footer class="item-footer">
+                            <span>Started on...</span>
+                            <span>End time...</span>
+                        </footer>
+                    </li>
+                </ul>
 
-                    <ul class="list" id="todo-list">
-                        <li class="list-item">
-                            <header class="item-header">
-                                <h2 class="item-title">Take a shower</h2>
-                                <ul class="menu">
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
-                                </ul>
-                            </header>
-                            <div class="item-container">
-                                <p>Description...</p>
-                            </div>
-                            <footer class="item-footer">
-                                <span>Started on...</span>
-                                <span>End time...</span>
-                            </footer>
-                        </li>
-                    </ul>
+                <ul class="list" id="todo-list">
+                    <li class="list-item">
+                        <header class="item-header">
+                            <h2 class="item-title">Pack my bag</h2>
+                            <ul class="menu">
+                                <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                            </ul>
+                        </header>
+                        <div class="item-container">
+                            <p>Description...</p>
+                        </div>
+                        <footer class="item-footer">
+                            <span>Started on...</span>
+                            <span>End time...</span>
+                        </footer>
+                    </li>
+                </ul>
 
-                    <ul class="list" id="todo-list">
-                        <li class="list-item">
-                            <header class="item-header">
-                                <h2 class="item-title">Pack my bag</h2>
-                                <ul class="menu">
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
-                                </ul>
-                            </header>
-                            <div class="item-container">
-                                <p>Description...</p>
-                            </div>
-                            <footer class="item-footer">
-                                <span>Started on...</span>
-                                <span>End time...</span>
-                            </footer>
-                        </li>
-                    </ul>
+                <ul class="list" id="todo-list">
+                    <li class="list-item">
+                        <header class="item-header">
+                            <h2 class="item-title">Have breakfast</h2>
+                            <ul class="menu">
+                                <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                            </ul>
+                        </header>
+                        <div class="item-container">
+                            <p>Description...</p>
+                        </div>
+                        <footer class="item-footer">
+                            <span>Started on...</span>
+                            <span>End time...</span>
+                        </footer>
+                    </li>
+                </ul>
 
-                    <ul class="list" id="todo-list">
-                        <li class="list-item">
-                            <header class="item-header">
-                                <h2 class="item-title">Have breakfast</h2>
-                                <ul class="menu">
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
-                                </ul>
-                            </header>
-                            <div class="item-container">
-                                <p>Description...</p>
-                            </div>
-                            <footer class="item-footer">
-                                <span>Started on...</span>
-                                <span>End time...</span>
-                            </footer>
-                        </li>
-                    </ul>
-
-                </div>
 
                 <div class="unchecked">
 
@@ -266,7 +263,6 @@ include_once './core/request.php';
 
 
     <script type="text/javascript" src="script.js">
-
     </script>
 </body>
 </html>

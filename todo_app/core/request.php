@@ -82,7 +82,7 @@ if (!empty($_POST)&&isset($_POST['addTask'])) {
 
 function selectAll(){
 	global $database;
-	$getStuff = "SELECT * FROM tasks";
+	$getStuff = "SELECT * FROM task";
 	$preparation = $database->prepare($getStuff);
 	$preparation->execute();
 	return $preparation->fetchAll( PDO::FETCH_ASSOC );
@@ -90,7 +90,7 @@ function selectAll(){
 
 function deleteTask($id){
 	global $database;
-	$getStuff = "DELETE FROM tasks WHERE id = :id";
+	$getStuff = "DELETE FROM task WHERE id = :id";
 
 	$preparation = $database->prepare($getStuff);
 	$preparation->bindParam(':id',$id,PDO::PARAM_INT);
@@ -106,7 +106,7 @@ function deleteTask($id){
 function addTask(){
 	global $database;
 
-	$getStuff = "INSERT INTO tasks (title, description)
+	$getStuff = "INSERT INTO task (title, description)
     VALUES (:title, :details)";
 	$preparation = $database->prepare($getStuff);
 
