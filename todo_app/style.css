@@ -1,17 +1,25 @@
 .main {
   border: 1px solid #AAAAAA;
   max-width: 600px;
-  margin: 0 auto;
+  height: 900px;
+  margin: 10px auto;
+  overflow-x: hidden;
+
+  /*overflow: hidden;*/
   /*background-color: #d3d3d3;*/
 }
 
 /*Header*/
 .main-header {
   /*border-bottom: 2px solid grey;*/
+  position: fixed;
+  /*display: */
   height: 60px;
   width: 600px;
   margin: 0 auto;
   padding-bottom: 30px;
+
+  background-color: white;
 }
 .main-header::after {
     display: inline-block;
@@ -50,10 +58,10 @@
 /*Main Container*/
 .main-container {
   /*border: 1px solid black;*/
-  margin-top: 30px;
-  /*position: absolute;*/
-  /*height: 600px;*/
-}
+  display: inline-block;
+  margin-top: 90px;
+  max-height: 840px;
+  }
 h2 {
   color: #AAAAAA;
 }
@@ -113,6 +121,7 @@ span {
 
 /*Next Container*/
 .next-container {
+    height: 840px;
   /*border: 1px solid yellow;*/
   /*border-top: 5px solid black;*/
   }
@@ -176,6 +185,9 @@ span {
   font-size: 20px;
   border: none;
 }
+#description {
+    height: 80px;
+}
 .next-footer {
   /*border: 1px solid purple;*/
   height: 50px;
@@ -194,8 +206,10 @@ span {
 /*Footer*/
 .main-footer {
   /*border: 1px solid purple;*/
+  position: fixed;
   height: 50px;
   display: flex;
+  background-color: white;
 }
 
 .main-footer h4 {

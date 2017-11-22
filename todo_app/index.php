@@ -224,7 +224,7 @@ include_once './core/request.php';
                     </div>
                     <div class="next-description next-element">
                         <h2>DESCRIPTION</h2>
-                        <input type="text" name="description" value="">
+                        <input type="text" name="description" value="" id= "description">
                     </div>
                     <div class="next-start next-element">
                         <h2>START AT</h2>
