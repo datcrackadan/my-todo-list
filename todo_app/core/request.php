@@ -75,7 +75,6 @@ if (!empty($_POST)&&isset($_POST['delete'])) {
 	deleteTask($_POST['delete']);
 }
 
-
 if (!empty($_POST)&&isset($_POST['addTask'])) {
 	addTask();
 }

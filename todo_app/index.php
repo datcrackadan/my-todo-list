@@ -42,9 +42,9 @@ include_once './core/request.php';
                         <header class="item-header">
                             <h2 class="item-title">Take a shower</h2>
                             <ul class="menu">
-                                <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="delete">Delete</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="edit">Edit</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="done">Done</button></li>
                             </ul>
                         </header>
                         <div class="item-container">
@@ -62,9 +62,9 @@ include_once './core/request.php';
                         <header class="item-header">
                             <h2 class="item-title">Pack my bag</h2>
                             <ul class="menu">
-                                <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="delete">Delete</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="edit">Edit</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="done">Done</button></li>
                             </ul>
                         </header>
                         <div class="item-container">
@@ -82,9 +82,9 @@ include_once './core/request.php';
                         <header class="item-header">
                             <h2 class="item-title">Have breakfast</h2>
                             <ul class="menu">
-                                <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="delete">Delete</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="edit">Edit</button></li>
+                                <li class="menu-item"><button class="btn" type="button" name="done">Done</button></li>
                             </ul>
                         </header>
                         <div class="item-container">
@@ -105,9 +105,9 @@ include_once './core/request.php';
                             <header class="item-header">
                                 <h2 class="item-title">Go to bus stop</h2>
                                 <ul class="menu">
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="delete">Delete</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="edit">Edit</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="done">Done</button></li>
                                 </ul>
                             </header>
                             <div class="item-container">
@@ -125,9 +125,9 @@ include_once './core/request.php';
                             <header class="item-header">
                                 <h2 class="item-title">Be at BeCode at 9:00</h2>
                                 <ul class="menu">
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="delete">Delete</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="edit">Edit</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="done">Done</button></li>
                                 </ul>
                             </header>
                             <div class="item-container">
@@ -145,9 +145,9 @@ include_once './core/request.php';
                             <header class="item-header">
                                 <h2 class="item-title">Start Coding</h2>
                                 <ul class="menu">
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="delete">Delete</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="edit">Edit</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="done">Done</button></li>
                                 </ul>
                             </header>
                             <div class="item-container">
@@ -165,9 +165,9 @@ include_once './core/request.php';
                             <header class="item-header">
                                 <h2 class="item-title">I need a real break</h2>
                                 <ul class="menu">
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Delete</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Edit</button></li>
-                                    <li class="menu-item"><button class="btn" type="button" name="button">Done</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="delete">Delete</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="edit">Edit</button></li>
+                                    <li class="menu-item"><button class="btn" type="button" name="done">Done</button></li>
                                 </ul>
                             </header>
                             <div class="item-container">
@@ -206,9 +206,9 @@ include_once './core/request.php';
 
                     </div>
 
-                    <div class="add">
+                    <div class="back">
 
-                        <button type="button" name="button" class="addBtn">+</button>
+                        <button type="button" name="button" class="addBtn">X</button>
 
                     </div>
 
